@@ -53,4 +53,7 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+  ChaliRail::Application.routes.draw do
+    root to: 'visitantes#new'
+  end
 end
